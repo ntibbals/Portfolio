@@ -1,0 +1,159 @@
+﻿@page
+@model Portfolio.Pages.PogsModel
+@{
+    Layout = "_Layout";
+}
+
+<main>
+    <div class="main">
+        <h1 class="title">Pogs R' Us</h1>
+        <h2 class="description">This is a role based e-Commerce web application that allows members the ability to purchase pogs and administrators the ability to view orders and edit/update inventory.</h2>
+    </div>
+    <div class="explore-container">
+        <div class="explore">
+            <h3>Languages/Tools Used</h3>
+               <ul>
+                   <li>C#</li>
+                   <li>CSS</li>
+                   <li>HTML</li>
+                   <li>SQL</li>
+                   <li>SendGrid</li>
+                   <li>Auth.NET</li>
+                   <li>OAuth 2.0</li>
+                   <li>XUnit</li>
+                   <li>Azure</li>
+               </ul>
+        </div>
+        <div class="carousel">
+
+            <div id="carousel-2" class="carousel slide carousel-fade" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-2" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-2" data-slide-to="1"></li>
+                    <li data-target="#carousel-2" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <div class="view">
+                            <img id="carousel-image" class="a-block w-100" src="~/assets/pogs/landing.PNG" alt="First slide">
+                            <div class="mask rgba-black-light"></div>
+                        </div>
+                        <div class="carousel-caption">
+                            <a href="#Wedoku"><h3 class="h3-responsive" id="proj-link">Landing Page</h3></a>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="view">
+                            <img id="carousel-image" class="a-block w-100" src="~/assets/pogs/pogs.PNG" alt="Second slide">
+                            <div class="mask rgba-black-strong"></div>
+                        </div>
+                        <div class="carousel-caption">
+                            <a href="#PogsRUs"><h3 class="h3-responsive" id="proj-link">Home Page</h3></a>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="view">
+                            <img id="carousel-image" class="a-block w-100" src="~/assets/pogs/products.PNG" alt="Third slide">
+                            <div class="mask rgba-black-strong"></div>
+                        </div>
+                        <div class="carousel-caption">
+                            <a href="#PogsRUs"><h3 class="h3-responsive" id="proj-link">Product Page</h3></a>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="view">
+                            <img id="carousel-image" class="a-block w-100" src="~/assets/pogs/product-detail.PNG" alt="Fourth slide">
+                            <div class="mask rgba-black-strong"></div>
+                        </div>
+                        <div class="carousel-caption">
+                            <a href="#PogsRUs"><h3 class="h3-responsive" id="proj-link">Product Details</h3></a>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="view">
+                            <img id="carousel-image" class="a-block w-100" src="~/assets/pogs/cart.PNG" alt="Fifth slide">
+                            <div class="mask rgba-black-strong"></div>
+                        </div>
+                        <div class="carousel-caption">
+                            <a href="#PogsRUs"><h3 class="h3-responsive" id="proj-link">Cart Page</h3></a>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="view">
+                            <img id="carousel-image" class="a-block w-100" src="~/assets/pogs/payment.PNG" alt="Sixth slide">
+                            <div class="mask rgba-black-strong"></div>
+                        </div>
+                        <div class="carousel-caption">
+                            <a href="#PogsRUs"><h3 class="h3-responsive" id="proj-link">Payment</h3></a>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="view">
+                            <img id="carousel-image" class="a-block w-100" src="~/assets/pogs/Order-summary.PNG" alt="Seventh slide">
+                            <div class="mask rgba-black-strong"></div>
+                        </div>
+                        <div class="carousel-caption">
+                            <a href="#PogsRUs"><h3 class="h3-responsive" id="proj-link">Order Summary</h3></a>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="view">
+                            <img id="carousel-image" class="a-block w-100" src="~/assets/pogs/admin-login.PNG" alt="Eigth slide">
+                            <div class="mask rgba-black-strong"></div>
+                        </div>
+                        <div class="carousel-caption">
+                            <a href="#PogsRUs"><h3 class="h3-responsive" id="proj-link">Admin Home Page</h3></a>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="view">
+                            <img id="carousel-image" class="a-block w-100" src="~/assets/pogs/admin-details-view.PNG" alt="Ninth slide">
+                            <div class="mask rgba-black-strong"></div>
+                        </div>
+                        <div class="carousel-caption">
+                            <a href="#PogsRUs"><h3 class="h3-responsive" id="proj-link">Admin Details View</h3></a>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="view">
+                            <img id="carousel-image" class="a-block w-100" src="~/assets/pogs/Manage-products.PNG" alt="Tenth slide">
+                            <div class="mask rgba-black-strong"></div>
+                        </div>
+                        <div class="carousel-caption">
+                            <a href="#PogsRUs"><h3 class="h3-responsive" id="proj-link">Manage Products Page</h3></a>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="view">
+                            <img id="carousel-image" class="a-block w-100" src="~/assets/pogs/profile.PNG" alt="Eleventh slide">
+                            <div class="mask rgba-black-strong"></div>
+                        </div>
+                        <div class="carousel-caption">
+                            <a href="#PogsRUs"><h3 class="h3-responsive" id="proj-link">Customer Profile Page</h3></a>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carousel-2" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" id="arrow" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carousel-2" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" id="arrow" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+        </div>
+    </div>
+</main>
