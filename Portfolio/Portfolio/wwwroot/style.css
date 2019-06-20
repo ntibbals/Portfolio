@@ -1,0 +1,46 @@
+﻿body {
+    background: url("background2.jpg")  repeat;
+}
+
+.main{
+    padding-top: 2vw;
+    color: #444;
+    text-align: center;
+}
+
+.name{
+    font-size: 8vw;
+}
+
+.title {
+    font-size: 3vw;
+}
+
+.explore-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 8vw;
+}
+.carousel{
+    margin-left: 5vw;
+    width: 650px;
+    color: #111;
+}
+#carousel-image {
+    height: 500px;
+}
+#proj-link {
+    color: #111;
+    font-weight: bold;
+}
+.explore{
+    width: 400px;
+}
+
+#arrow{
+    background-color: rgba(68, 68, 68, 0.79);
+    border-radius: 10em;
+    height: 40px;
+}
+
+
