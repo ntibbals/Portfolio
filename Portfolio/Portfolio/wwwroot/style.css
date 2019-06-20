@@ -1,7 +1,13 @@
-﻿body {
-    background: url("background2.jpg")  repeat;
+﻿@import url('https://fonts.googleapis.com/css?family=Sahitya|Scada&display=swap');
+body {
+    background: url("background2.jpg") repeat;
+    /*font-family: 'Sahitya', serif;*/
+    font-family: 'Scada', sans-serif;
 }
 
+h1 {
+    font-family: 'Scada', sans-serif;
+}
 .main{
     padding-top: 2vw;
     color: #444;

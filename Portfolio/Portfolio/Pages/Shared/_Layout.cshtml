@@ -6,24 +6,14 @@
     <meta name="viewport" content="width=device-width" />
     <link href="~/reset.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Sahitya|Scada&display=swap" rel="stylesheet">
     <link href="~/style.css" rel="stylesheet" />
+    <link href="~/header.css" rel="stylesheet" />
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a class="nav-title" href="/">Nate Tibbals</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="/">Home</a>
-                    <a class="nav-item nav-link" href="/">About Me</a>
-                    <a class="nav-item nav-link" href="/">Contact Me</a>
-                </div>
-            </div>
-        </nav>
-    </header>
+        <div class="header-outer">
+            @{<partial name="_NavBarPartial" />}
+        </div>
     <main>
         @RenderBody()
     </main>
